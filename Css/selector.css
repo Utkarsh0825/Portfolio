@@ -1,0 +1,27 @@
+h1,a,p{
+    color: blue;
+}
+li{
+    list-style-type: square;
+}
+.special{
+    color: brown;
+}
+span.special,li{
+    color: chartreuse;
+}
+li em{    /*decent and combinator /*
+    color: blue;
+}
+h1+p{       /*addajasent combinator*/
+    color: pink;
+}
+a:hover{      /*pseudo class selector*/
+    color: dimgray;
+    text-decoration: overline;
+}
+body h1+p .special{
+    color: indigo;
+    background-color: cornflowerblue;
+    padding: 5px;
+}

@@ -1,0 +1,6 @@
+li[class]{
+    font-size: larger;
+}
+li[class="a"]{
+    color: blueviolet;
+}

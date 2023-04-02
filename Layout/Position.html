@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .box-set,.box{
+            border-radius: 6px;
+        }
+        .box-set{
+            background-color:whitesmoke;
+        }
+        .box-1{
+            position: fixed;
+            top: 220px;
+            background-color: green;
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            margin: 20px;
+            padding: 8px;
+
+        }
+        .box-1{
+            position: relative;
+            top: 200px;
+        }
+        .box-2{
+            position: absolute;
+            /* all boxes are one after another in absolute  */
+            top: 20px;
+        }
+        .box-2{
+            position: fixed;
+            /* it will fix this box while scrolling  */
+        }
+    </style>
+</head>
+<body>
+    <div class="box-set">
+        <div class="box box-1">Box1</div>
+        <div class="box box-2">Box2</div>
+        <div class="box box-3">Box3</div>
+        <div class="box box-4">Box4</div>
+    </div>
+    
+</body>
+</html>
